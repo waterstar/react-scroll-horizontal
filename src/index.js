@@ -153,7 +153,8 @@ export default class ScrollHorizontal extends Component {
               display: `inline-flex`,
               height: `100%`,
               position: `absolute`,
-              willChange: `transform`
+              willChange: `transform`,
+              left: '0px'
             }
 
             return <div style={scrollingElementStyles}>{children}</div>
